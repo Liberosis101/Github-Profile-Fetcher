@@ -9,7 +9,6 @@ const repoCount = document.querySelector(".repo-count");
 const profileCont = document.querySelector(".profile-container");
 
 
-
 // making an XML http Request(API request for data)
 function handleClick() {
   let userInput = document.getElementById("username-input");

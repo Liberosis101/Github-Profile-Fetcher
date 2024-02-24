@@ -26,6 +26,4 @@ GitHub Profile Viewer is a simple web application that allows users to retrieve 
 ### Contributions:
 Contributions to enhance the project's functionality, improve error handling, or add new features are welcome! Please fork the repository, make your changes, and submit a pull request.
 
-### License:
-
 ---

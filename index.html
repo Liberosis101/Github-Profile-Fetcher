@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XHR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1 class="error-heading"></h1>
+      <div class="username-query">
+        <input placeholder="Enter Github Username" id="username-input" />
+        <button id="find-user" onclick="handleClick()">Find</button>
+      </div>
+      <div class="profile-container">
+        <div class="details">
+          <div id="img-container"></div>
+          <div id="name-cont"></div>
+          <div class="followers">
+            <h1 class="count"></h1>
+          </div>
+          <div class="repo-container">
+            <h1 class="repo-count"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

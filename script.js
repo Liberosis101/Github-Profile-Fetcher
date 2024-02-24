@@ -17,7 +17,9 @@ function handleClick() {
   if (inputValue.length == 0) {
     errorHeading.innerText = "Please enter a Username";
     profileCont.style.display = 'none';
+    userInput.style.borderBottom = '1px solid red';
   } else {
+    userInput.style.borderBottom = "1px solid black";
     errorHeading.innerText = "";
     apiURL = "https://api.github.com/users/" + inputValue;
 
